@@ -1,0 +1,78 @@
+<html>
+<head>
+<style>
+
+p{
+    color: black;
+    font-size: 30px;
+	font-family: Arial;
+}
+h1{
+    
+	color: black;
+    font-size: 60px;
+}
+ol{
+   font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1> 
+   <ol type=1 START=5> 
+        <li> Definicja modelu pudełkowego </li>
+   </ol>
+</h1>
+<p> &nbsp&nbsp Każdy element w dokumencie HTML, otacza się prostokątnym obszarem zwanym pudełkiem (ang. Box model). Pudełko składa się z kilku warstw: </p>
+ <table border=1>
+  <tr> <b> </b> 
+     <td><center>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b> zawartość  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </b>  </center></td>
+    <td><center>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b> opis  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </b> </center></td>
+</tr>
+<tr>
+     <td> content </td>
+     <td> zawartość elementu (np.: tekst, obrazek) </td>
+</tr>
+     <td> padding </td>
+     <td> otaczające marginesy wewnętrzne, odstęp między obramowaniem i zawartością elementu </td>
+<tr>
+    <td> border </td>
+    <td> obramowania wokół zawartości elementu, ma styl i kolor. </td>
+</tr>
+<tr>
+     <td> margin </td>
+     <td> marginesy wokół ramki (margines zewnętrzny). Jest to pusty obszar wokół ramki, który nie ma koloru tła i jest przeźroczysty. </td>
+</tr>	 
+	 </table> 
+	 
+<h1> <ol type=1 START=6>
+       <li> Dwie uwagi na temat modelu pudełkowego </li> 
+	 </ol>
+</h1>
+    <ul>
+      <li style="font-size: 20px;"> <b>Uwaga 1:</b> &nbsp&nbsp Padding, border i margin mogą mieć zerową wartość. </li>
+      <li style="font-size: 20px;"> <b>Uwaga 2:</b> &nbsp&nbsp Tło elementu jest określone dla wszystkich z podanych powyżej obszarów z wyjątkiem 
+marginesów zewnętrznych, które zawsze są przezroczyste (transparent) </li>	   
+	 </ul>
+	 
+<h1> <ol type=1 START=7>
+       <li> Grafika modelu pudełkowego </li> 
+	 </ol>
+</h1>	
+	 <img src="mp.png"> <br> <br>
+	 
+<h1> <ol type=1 START=7>
+       <li> Grafika obrazująca różnicę pomiędzy paddingiem i marginesem </li> 
+	 </ol>
+</h1>		 
+	 <img src="roznica.png"> <br> 
+	 <i style="font-size: 20px;"> Jak widać na rysunku, padding oznaczony jest kolorem niebieskim. Określa on wielkość <br>
+przestrzeni wokół elementu < p >. Element ten posiada również margines zaznaczony kolorem <br>
+pomarańczowym. Jest to odległość od brzegu elementu < body > </i>
+	 
+	 
+	 
+	 
+</body>
+</html>
+<!-- Szymon Gradzewicz -->
